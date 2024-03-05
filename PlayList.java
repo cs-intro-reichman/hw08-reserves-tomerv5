@@ -123,6 +123,7 @@ class PlayList {
         if(i == size - 1){
             tracks[i] = null;
             size--;
+            return;
         }
         for(int j = i; j < size - 1; j++)
         {
